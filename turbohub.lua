@@ -3,7 +3,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Fai Fao Hub | Blox Fruits",
+    Title = "Turbo Hub | Blox Fruits",
     SubTitle = "Version 3.1",
     TabWidth = 160,
     Size = UDim2.fromOffset(500, 320),
@@ -12,17 +12,17 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "home" }),
-    Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
-    Player = Window:AddTab({ Title = "Player", Icon = "box" }),
-    Teleport = Window:AddTab({ Title = "Island", Icon = "palmtree" }),
-    Fruit = Window:AddTab({ Title = "Fruit", Icon = "cherry" }),
-    Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
-    Race = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
-    Hop = Window:AddTab({ Title = "Hop", Icon = "wifi" }),
+    Main = Window:AddTab({ Title = "Main",
+    Setting = Window:AddTab({ Title = "Setting", 
+    Stats = Window:AddTab({ Title = "Stats", 
+    Player = Window:AddTab({ Title = "Player", 
+    Teleport = Window:AddTab({ Title = 
+    Fruit = Window:AddTab({ Title = "Fruit", 
+    Raid = Window:AddTab({ Title = "Raid", 
+    Race = Window:AddTab({ Title = "Race V4", 
+    Shop = Window:AddTab({ Title = "Shop", 
+	Misc = Window:AddTab({ Title = "Misc", 
+    Hop = Window:AddTab({ Title = "Hop", 
 }
 local Options = Fluent.Options
 do
@@ -7400,7 +7400,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
             Hop()
             Fluent:Notify({
-                Title = "Turbo Hub",
+                Title = "Fai Fao Hub",
                 Content = "Turn Off Find Full Moon...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -7408,7 +7408,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
             Hop()
             Fluent:Notify({
-                Title = "Turbo Hub",
+                Title = "Fai Fao Hub",
                 Content = "Hop...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -7416,7 +7416,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
             Hop()
             Fluent:Notify({
-                Title = "Turbo Hub",
+                Title = "Fai Fao Hub",
                 Content = "Hop...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -7451,8 +7451,8 @@ end)
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------
 Fluent:Notify({
-    Title = "Turbo Hub",
+    Title = "Fai Fao Hub",
     Content = "The script has been loaded.",
     Durtion = 3
 })
-warn("YouTube : Turbo Lite Loading Completed !!")
+warn("Fai Fao Hub Loading Completed !!")
