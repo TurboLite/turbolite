@@ -181,11 +181,11 @@ local AllowRunServiceBind = Instance.new("BindableFunction")
 
 function AllowRunServiceBind.OnInvoke(args)
 
-    if args == "ON" then
+    if args == "Bật" then
 
         AllowRunService = true
 
-    elseif args == "OFF" then
+    elseif args == "Tắt" then
 
         AllowRunService = false
 
@@ -205,9 +205,9 @@ function AllowRunServiceBind.OnInvoke(args)
 
         Callback = AllowRunServiceBind,
 
-        Button1 = "ON",
+        Button1 = "Bật",
 
-        Button2 = "OFF",
+        Button2 = "Tắt",
 
     })
 
@@ -242,7 +242,7 @@ local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
 
-    Title = "Auto Chest",
+    Title = "Auto Farm Gương",
 
     Text = "By: Turbo Lite",
 
@@ -252,9 +252,9 @@ CoreGui:SetCore("SendNotification", {
 
     Callback = AllowRunServiceBind,
 
-    Button1 = "Enable",
+    Button1 = "Bật",
 
-    Button2 = "Disable",
+    Button2 = "Tắt",
 
 })
 
