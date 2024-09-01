@@ -1,7 +1,7 @@
 
 highChestOnly = true
 
-godsChalicSniper = false
+godsChalicSniper = true
 
 repeat task.wait(4) until game:IsLoaded()
 
@@ -195,7 +195,7 @@ function AllowRunServiceBind.OnInvoke(args)
 
     CoreGui:SetCore("SendNotification", {
 
-        Title = "Auto Chest",
+        Title = "Auto Farm Gương",
 
         Text = "By: Turbo Lite",
 
