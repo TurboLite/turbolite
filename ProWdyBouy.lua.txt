@@ -601,7 +601,7 @@ Character.Parent = MainFrame
 
 TextLabel.Font = Enum.Font.DenkOne
 TextLabel.Text = "Turbo Lite - Auto Bounty "
-TextLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+TextLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
 TextLabel.TextSize = 36
 TextLabel.TextTransparency = 0.800000011920929
 TextLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -638,7 +638,7 @@ CharacterIcon.Parent = MainFrame
 
 BountyEarned.Font = Enum.Font.DenkOne
 BountyEarned.Text = "Bounty Earned: 0$"
-BountyEarned.TextColor3 = Color3.fromRGB(0, 255, 255)
+BountyEarned.TextColor3 = Color3.fromRGB(0, 255, 0)
 BountyEarned.TextSize = 25
 BountyEarned.TextTransparency = 0.10000000149011612
 BountyEarned.TextXAlignment = Enum.TextXAlignment.Left
@@ -657,7 +657,7 @@ UIStroke.Parent = BountyEarned
 
 TotalBountyEarned.Font = Enum.Font.DenkOne
 TotalBountyEarned.Text = "Total Bounty Earned: 0$"
-TotalBountyEarned.TextColor3 = Color3.fromRGB(0, 255, 255)
+TotalBountyEarned.TextColor3 = Color3.fromRGB(0, 255, 0)
 TotalBountyEarned.TextSize = 25
 TotalBountyEarned.TextTransparency = 0.10000000149011612
 TotalBountyEarned.TextXAlignment = Enum.TextXAlignment.Left
@@ -712,7 +712,7 @@ UIStroke3.Color = Color3.fromRGB(47.000000998377155, 88, 209)
 UIStroke3.Thickness = 0.4000000059604645
 UIStroke3.Parent = AccoutTimeElapsed
 
-SkipImg.Image = "rbxassetid://133859423273652"
+SkipImg.Image = "rbxassetid://"
 SkipImg.AnchorPoint = Vector2.new(0, 1)
 SkipImg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SkipImg.BorderColor3 = Color3.fromRGB(0, 0, 0)
