@@ -1,0 +1,34 @@
+Toggle:OnChanged(function(Value)
+    _G.StopChest = Value
+end)
+
+spawn(function()
+    while wait() do
+        if _G.StopChest then
+            local player = game.Players.LocalPlayer
+            local backpack = player.Backpack
+            local character = player.Character
+            
+            if backpack:FindFirstChild("Fist of Darkness") or character:FindFirstChild("Fist of Darkness") or backpack:FindFirstChild("God's Chalice") or character:FindFirstChild("God's Chalice") then
+                AutoFarmChest = true
+                TweenChest:Set(true)
+            end
+        end
+    end
+end)
+    
+          game.Players.LocalPlayer.Character.Head:Destroy()
+          wait(.15)
+      end
+  end
+  for _,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+   if string.find(v.Name, "Chest") and v:IsA("TouchTransmitter") then
+   firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0) --0 is touch
+   wait()
+   firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1) -- 1 is untouch
+   end
+   end
+  end)
+    end
+  end
+end)
